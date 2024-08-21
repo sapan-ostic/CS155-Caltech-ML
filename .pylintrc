@@ -5,3 +5,13 @@ ignore=tests
 [PYTHONPATH]
 # Add paths here
 init-hook='import sys; sys.path.append(".")'
+
+[FORMAT]
+disable=W0201, # attribute-defined-outside-init
+        R0914, # too many local variables
+        R0902, # too many instance attributes
+        R0913 # too many arguments
+# Change line length to 135
+max-line-length=135
+# change number of inputs to 6
+max-args=6
