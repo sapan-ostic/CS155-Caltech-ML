@@ -1,0 +1,7 @@
+[MASTER]
+# List of package or module names to be ignored.
+ignore=tests
+
+[PYTHONPATH]
+# Add paths here
+init-hook='import sys; sys.path.append(".")'
