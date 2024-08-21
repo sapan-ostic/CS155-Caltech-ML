@@ -1,8 +1,12 @@
-
-from ml_lib.utils.kfold import KFold
+"""
+This module performs the main functionality of the project.
+"""
 
 def main():
-    print("Main")
+    """
+    Main function
+    """
+    print("Hello World!")
 
 if __name__ == "__main__":
     main()
