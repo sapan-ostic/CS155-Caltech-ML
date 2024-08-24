@@ -11,3 +11,5 @@ repos:
       - id: pylint
         additional_dependencies:
           - pylint==3.2.6  # or the version you want to use
+          - numpy
+          - matplotlib
